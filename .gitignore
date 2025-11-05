@@ -1,0 +1,7 @@
+*.o
+*.obj
+*.exe
+build/
+.DS_Store
+*.swp
+*~
