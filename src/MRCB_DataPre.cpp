@@ -181,7 +181,7 @@ static void process(const prcopt_t *popt, const solopt_t *sopt, Ifile infile,int
         FILE* fpobs;
         if (!(obs.data = (obsd_t*)malloc(sizeof(obsd_t) * MAXOBS))) return;
         if (!(fpobs = fopen(infile.obsfile[k], "r"))) {
-            printf("open obs file error:%s\n", infile.obsfile[k]);
+            printf("open nav file error:%s\n", infile.obsfile[k]);
             free(obs.data);
             return;
         }
