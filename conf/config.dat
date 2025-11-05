@@ -1,0 +1,34 @@
+# MRCB_Version 1.0 Configuration File 
+#====================================================================
+# Input File Path
+
+OBS_PATH    	   =F:\MRCB\Testdata\day-by-day processing\MRO100AUS_R_20242980000_01D_30S_MO.24o      # obs file path
+NAV_PATH    	   =F:\MRCB\Testdata\day-by-day processing\BRDC00IGS_R_20242980000_01D_MN.24n 		   # nav file path (broadcast ephemeris)
+
+#====================================================================
+# Output File Path
+
+OUT_PRO    =F:\MRCB\result\ 											  #processing information file
+OUT_PATH   =F:\MRCB\result\  									          #result file
+OUT_LOG    =F:\MRCB\result\ 											  #sat Log
+
+#====================================================================
+# Process Option1
+Ephopt		   	   =0     						# Satellite Ephemeris :0->broadcast
+FiltMode		   =0     						# Filting Mode        :0->Forward Mode
+UseBDS2		   	   =0           				# Is Use BDS2         :0->use bds3 , 1->use bds2
+Frequency     	   =2     						# Frequency number
+Elmask        	   =10     						# Satellite elevation mask
+Exclsats      	   =C01 C02 C03 C04 C05     	# prn ...
+System        	   =41           				# 1:gps+4:glo+8:gal+16:qzs+32:comp
+
+# Process Option2
+Continue      	   =0            										# 0->day-by-day  1->continuous processing
+OBS_DIR			   =F:\MRCB\Testdata\continuous processing\obs\			# obs dir
+NAV_DIR			   =F:\MRCB\Testdata\continuous processing\nav\			# nav dir
+
+#====================================================================
+# Station information
+StaName	       =MRO1           				# Station Name
+DOY        	   =2024298						# DOY
+
