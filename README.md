@@ -17,7 +17,8 @@ Multi-system and Multi-frequency Receiver Code Bias Analysis Software (MRCB) is 
 Ensure that the complete compilation tool and CMAKE (version 3.10 or higher) is installed.
 
 - Extract the files downloaded from GitHub
-<img width="529" height="189" alt="image" src="https://github.com/user-attachments/assets/d04b9199-012b-4a16-baea-2c66dc387f80" />
+<img width="351" height="205" alt="image" src="https://github.com/user-attachments/assets/def70853-7f64-47cc-a916-5ff90b56b2a5" />
+
 
 - Search "x64 Native Tools Command Prompt for VS 2022"
 <img width="310" height="195" alt="image" src="https://github.com/user-attachments/assets/20068885-672c-4b0a-9a17-c2c9bfae0dc5" />
